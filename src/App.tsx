@@ -36,7 +36,7 @@ export const App = () => {
               <Box>
                 <Switch>
                   <Route path="/nowPlaying" component={NowPlaying} />
-                  {/* <Route path="/popular" component={Popular} /> */}
+                  <Route path="/popular" component={Popular} />
                   <Redirect from="/" to="/nowPlaying" />
                 </Switch>
               </Box>
