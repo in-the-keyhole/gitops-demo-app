@@ -69,8 +69,7 @@ export const MenuAppBar = () => {
             <NavLink
               className="link"
               activeClassName="linkActive"
-              to="/popular"
-            >
+              to="/popular">
               Popular
             </NavLink>
           </Typography>
