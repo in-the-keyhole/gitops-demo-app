@@ -66,12 +66,12 @@ export const MenuAppBar = () => {
             >
               Now Playing
             </NavLink>
-            {/* <NavLink
+            <NavLink
               className="link"
               activeClassName="linkActive"
               to="/popular">
               Popular
-            </NavLink> */}
+            </NavLink>
           </Typography>
           {auth && (
             <div>
